@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wowow
+  m_Shader: {fileID: -6465566751694194690, guid: 7df8f9792245be64d9947a11bada9fbe, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Hatch:
+        m_Texture: {fileID: 2800000, guid: 93920c27fd2a72c4f8b57913f94bb2db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_84946b925b494a24a7dc452c83b657b5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 93920c27fd2a72c4f8b57913f94bb2db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _GridLight: 0.19
+    - _GridShadow: -0.37
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _StepDarkShadow: -0.44
+    - _StepHighlights: 0.83
+    - _StepLight: 0.61
+    - _StepShadow: 0.04
+    m_Colors:
+    - _DarkShadow: {r: 0.46226418, g: 0.010902455, b: 0.20490894, a: 1}
+    - _Highlight: {r: 1, g: 0.9728774, b: 0.9669811, a: 1}
+    - _Light: {r: 1, g: 0.8117648, b: 0.7686275, a: 1}
+    - _MidTone: {r: 1, g: 0.2969197, b: 0.2688679, a: 1}
+    - _Shadow: {r: 0.6132076, g: 0.072312206, b: 0.2210977, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &2317846688357291003
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
